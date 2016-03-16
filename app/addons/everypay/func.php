@@ -61,7 +61,7 @@ function fn_everypay_prepare_checkout_payment_methods($cart, $sec, $payment_tabs
     $time = time();
     
     $btn_text = 'Πληρωμή με κάρτα';
-    if ($cart['user_data']['lang_code'] != 'el'){
+    if ($lang != 'el'){
         $btn_text = 'Pay with card';
     }
     //ouput
