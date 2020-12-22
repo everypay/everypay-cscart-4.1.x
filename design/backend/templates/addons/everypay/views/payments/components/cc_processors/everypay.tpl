@@ -60,8 +60,6 @@
     </table>
 </div>
 
-<!-- Force iframe mode -->
-<input type="hidden" name="payment_data[processor_params][iframe_mode]" value="Y">
 
 <style type="text/css">{literal}
     #installments table{max-width: 401px;}
